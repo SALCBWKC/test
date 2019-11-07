@@ -4,7 +4,7 @@ import math
 def function_a():
     try:
         result = 1 / 0
-    except ZeroDivisionError:  # except后面的异常类型要根据具体错误选择
+    except ZeroDivisionError:
         print("[function_a]除0异常")
     else:
         print("操作成功", "result=", result)
